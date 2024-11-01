@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    direction: ltr;
 }
 
 body{
@@ -36,13 +37,13 @@ body{
 }
 
 li.gmail-site{
-     padding-top:11px ; 
+     padding-top:14px ; 
 }
 li.google-img{
-    padding-top:11px ; 
+    padding-top:14px ; 
 }
 li.google-app{
-    padding-top:11px ; 
+    padding-top:14px ; 
 }
 li.profile{
     padding-top:6px ; 
@@ -316,4 +317,16 @@ a:hover{
 .google-logo {
   width: 25px;
   height: 25px;
+}
+.sign-in{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.90em 2em;
+  /* padding-right: 1.25em; */
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 2em;
+  background-color:#B3D7EF ;
 }
